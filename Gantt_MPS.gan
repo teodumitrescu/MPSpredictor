@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Gantt_MPS" company="" webLink="http://" view-date="2022-10-20" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3230" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <timeline>
+            <![CDATA[0,2,13,1,8]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#0000ff #ff00ff #cc0099 #ff3300 #ff0099 #ff0000 #ff0033 #6600ff #f4f4f4]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Milestone 1" color="#6600ff" meeting="false" start="2022-10-19" duration="16" complete="33" thirdDate="2022-10-26" thirdDate-constraint="0" expand="false">
+            <task id="3" name="Assign roles" color="#8cb6ce" meeting="false" start="2022-10-19" duration="6" complete="100" thirdDate="2022-10-26" thirdDate-constraint="0" expand="true"/>
+            <task id="4" name="Creating an overview" color="#8cb6ce" meeting="false" start="2022-10-26" duration="6" complete="0" thirdDate="2022-10-12" thirdDate-constraint="0" priority="0" expand="true"/>
+            <task id="5" name="Writing administrative report" color="#8cb6ce" meeting="false" start="2022-11-02" duration="6" complete="0" thirdDate="2022-10-11" thirdDate-constraint="0" priority="0" expand="true"/>
+        </task>
+        <task id="1" name="Milestone 2" color="#ff0033" meeting="false" start="2022-11-09" duration="21" complete="0" thirdDate="2022-10-26" thirdDate-constraint="0" priority="2" expand="false">
+            <task id="6" name="Technical midterm report" color="#0000ff" meeting="false" start="2022-11-09" duration="6" complete="0" thirdDate="2022-10-11" thirdDate-constraint="0" expand="true"/>
+            <task id="7" name="Development midterm report" color="#0000ff" meeting="false" start="2022-11-16" duration="6" complete="0" thirdDate="2022-10-19" thirdDate-constraint="0" expand="true"/>
+            <task id="8" name="Prototype demo" color="#ff0099" meeting="false" start="2022-11-23" duration="11" complete="0" thirdDate="2022-10-27" thirdDate-constraint="0" priority="2" expand="true"/>
+        </task>
+        <task id="2" name="Milestone 3" color="#ff0000" meeting="false" start="2022-12-07" duration="25" complete="0" thirdDate="2022-10-26" thirdDate-constraint="0" priority="4" expand="false">
+            <task id="9" name="Binarization solution" color="#ff3300" meeting="false" start="2022-12-07" duration="4" complete="0" thirdDate="2022-10-11" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="10" name="Binarization techincal demo" color="#cc0099" meeting="false" start="2022-12-12" duration="3" complete="0" thirdDate="2022-11-16" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="11" name="Development final report" color="#ff00ff" meeting="false" start="2022-12-14" duration="6" complete="0" thirdDate="2022-11-22" thirdDate-constraint="0" expand="true"/>
+            <task id="12" name="Technical final report" color="#ff00ff" meeting="false" start="2022-12-21" duration="6" complete="0" thirdDate="2022-11-22" thirdDate-constraint="0" expand="true"/>
+            <task id="14" name="Finishing touches" color="#0000ff" meeting="false" start="2022-12-28" duration="10" complete="0" thirdDate="2022-12-28" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="13" name="Final presentation" color="#0000ff" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2023-01-11" duration="1" complete="0" thirdDate="2022-12-05" thirdDate-constraint="0" priority="4" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
