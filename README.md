@@ -13,7 +13,8 @@
 The project is built on the notion of binarization and consists of two solutions. The two approaches are based on the principles of global and local binarization and the corresponding binarization algorithms. The study objective is to cleverly merge the results of these algorithms (also referred to as thresholds or binarization thresholds) to generate a result that is considerably superior to each one of them alone.
 
 <h3> UML Diagram </h3>
-![Initial diagram](UML_diagram.jpeg?raw=true "Initial diagram")
+<img src="https://user-images.githubusercontent.com/67861751/199727804-f0194134-e252-4384-96c7-a714ceebb1d6.jpeg" alt="UML diagram" title="UML diagram">
+
 
 <h3>Languages and frameworks</h3>
 <ul>
