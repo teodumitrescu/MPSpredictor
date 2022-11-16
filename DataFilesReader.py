@@ -20,10 +20,3 @@ class DataFilesReader:
         self.trainValues = self.tresholds[0:9]
         self.validationValues = self.tresholds[9:-1]
         self.testValues = self.tresholds[-1]
-
-    def getMean(self):
-        mean = 0
-        for value in self.tresholds:
-            mean = mean + value
-        
-        return mean / len(self.tresholds)
