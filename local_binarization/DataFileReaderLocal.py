@@ -13,7 +13,7 @@ class DataFileReaderLocal:
         with open(self.filepath, 'r') as file:
             my_reader = csv.reader(file, delimiter=',')
             for row in my_reader:
-                    pixelValue = float(row[0])
-                    pixelGroundType = row[1]
-                    pixelTresholds = [float(x) for x in list(filter(lambda a: a != '', row[2:]))]
-                    self.pixelsList.append(Pixel(pixelValue, pixelGroundType, pixelTresholds))
+                pixelValue = float(row[0])
+                pixelGroundType = int(row[1])
+                pixelTresholds = [float(x) for x in list(filter(lambda a: a != '', row[2:]))]
+                self.pixelsList.append(Pixel(pixelValue, pixelGroundType, pixelTresholds))
